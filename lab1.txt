@@ -1,0 +1,2 @@
+1. WAP to print even numbers from 1 to 50.
+2. WAP to print prime numbers from 1 to 50.

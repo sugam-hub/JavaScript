@@ -1,0 +1,11 @@
+var a=10;
+var b=20;
+document.write("Values Of A and B before swapping:"+"<br/>");
+document.write("A:"+a+"<br/>");
+document.write("B:"+b+"<br/>");
+a=a+b;
+b=a-b;
+a=a-b;
+document.write("Values Of A and B after swapping:"+"<br/>");
+document.write("A:"+a+"<br/>");
+document.write("B:"+b+"<br/>"); 

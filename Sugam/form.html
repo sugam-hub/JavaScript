@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="fields">
+                <input type="text" placeholder="Enter your name here">
+                <h1></h1> <br>
+            </div>
+
+            <div class="fields">
+                <label for="html"><input type="checkbox" id="lang" name="language" value="html">HTML</label>
+                <label for="css"><input type="checkbox" id="lang" name="language" value="css">CSS</label>
+                <label for="javascript"><input type="checkbox" id="lang" name="language"
+                        value="javascript">JavaScript</label>
+                <br><br>
+                <h2></h2>
+            </div>
+
+            <div class="field">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="gender" value="Male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="gender" value="Female"><br><br>
+                <h3></h3>
+            </div>
+
+            <div class="field">
+                <label for="country">Choose a country:</label>
+                <select name="country" id="country">
+                    <option value="Nepal" selected>Nepal</option>
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                </select><br><br>
+                <h4></h4>
+            </div>
+        </form>
+        <button id="btn">Submit</button>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
